@@ -44,7 +44,7 @@ Proyek ini menyertakan sebuah skrip untuk mengotomatiskan seluruh proses instala
 **1. Clone Repositori**
 Buka terminal Anda dan jalankan perintah berikut:
 ```bash
-git clone [URL_REPOSITORI_ANDA]
+git clone https://github.com/SYFDNNN/e_Pilketos.git
 cd e-Pilketos
 ```
 
@@ -71,16 +71,16 @@ Lingkungan pengembangan Anda sudah siap!
 ## Penggunaan & Kredensial Default
 Setelah semua kontainer berjalan, Anda bisa mengakses aplikasi:
 
-****- Aplikasi Utama: Buka browser dan kunjungi ```bash http://localhost ```****
+- Aplikasi Utama: Buka browser dan kunjungi ****```bash http://localhost ```****
 
-****- phpMyAdmin (untuk manajemen database): Kunjungi ```bash http://localhost:8080 ```****
+- phpMyAdmin (untuk manajemen database): Kunjungi ****```bash http://localhost:8080 ```****
 
 Kredensial Default:
 Database sudah diisi dengan satu akun admin secara default.
 
-****- Username: ```bash admin ```****
+- Username: ****```bash admin ```****
 
-****- Password: ```bash admin ```****
+- Password: ****```bash admin ```****
 
 Untuk pengguna Siswa, silakan gunakan fitur registrasi yang tersedia di halaman utama untuk membuat akun baru.
 
