@@ -32,7 +32,7 @@ Aplikasi ini dibangun menggunakan teknologi berikut:
 ## Prasyarat
 
 Sebelum memulai, pastikan perangkat Anda sudah terinstal:
-
+-   [Dockerfile]
 -   [Docker](https://www.docker.com/products/docker-desktop/)
 -   [Docker Compose](https://docs.docker.com/compose/install/) (biasanya sudah termasuk dalam Docker Desktop)
 -   [Git](https://git-scm.com/)
