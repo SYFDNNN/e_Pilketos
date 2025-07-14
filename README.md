@@ -5,7 +5,7 @@ Selamat datang di repositori e-Pilketos! Ini adalah sebuah aplikasi web open-sou
 ![Screenshot Halaman Hasil e-Pilketos](https://drive.google.com/uc?export=view&id=10gQc3BVtJh52Nm7-91F3CJjejU3Nw7CO)
 *(Catatan: Ganti URL gambar di atas dengan screenshot aplikasi Anda yang sudah di-hosting, atau simpan screenshot di dalam repo dan tautkan secara lokal)*
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 -   **Dua Peran Pengguna**: Sistem membedakan antara **Admin** dan **Siswa** dengan hak akses yang berbeda.
 -   **Panel Admin Komprehensif**:
@@ -19,7 +19,7 @@ Selamat datang di repositori e-Pilketos! Ini adalah sebuah aplikasi web open-sou
     -   Melihat hasil perolehan suara secara publik.
 -   **Keamanan**: Menggunakan *prepared statements* untuk mencegah SQL Injection dan *password hashing* untuk keamanan kata sandi.
 
-## 🛠️ Tumpukan Teknologi (Tech Stack)
+## Tumpukan Teknologi (Tech Stack)
 
 Aplikasi ini dibangun menggunakan teknologi berikut:
 
@@ -29,7 +29,7 @@ Aplikasi ini dibangun menggunakan teknologi berikut:
 -   **Frontend**: HTML, CSS, JavaScript (Vanilla)
 -   **Kontainerisasi**: Docker & Docker Compose
 
-## 📋 Prasyarat
+## Prasyarat
 
 Sebelum memulai, pastikan perangkat Anda sudah terinstal:
 
@@ -37,7 +37,7 @@ Sebelum memulai, pastikan perangkat Anda sudah terinstal:
 -   [Docker Compose](https://docs.docker.com/compose/install/) (biasanya sudah termasuk dalam Docker Desktop)
 -   [Git](https://git-scm.com/)
 
-## 🚀 Instalasi & Penyiapan Lokal (Cara Otomatis)
+## Instalasi & Penyiapan Lokal (Cara Otomatis)
 
 Proyek ini menyertakan sebuah skrip untuk mengotomatiskan seluruh proses instalasi. Cukup ikuti langkah-langkah berikut:
 
@@ -68,23 +68,23 @@ Skrip akan secara otomatis memeriksa prasyarat, membuat file .env yang dibutuhka
 **4. Selesai!**
 Lingkungan pengembangan Anda sudah siap!
 
-## 🔑 Penggunaan & Kredensial Default
+## Penggunaan & Kredensial Default
 Setelah semua kontainer berjalan, Anda bisa mengakses aplikasi:
 
-Aplikasi Utama: Buka browser dan kunjungi ```bash http://localhost ```
+****- Aplikasi Utama: Buka browser dan kunjungi ```bash http://localhost ```****
 
-phpMyAdmin (untuk manajemen database): Kunjungi ```bash http://localhost:8080 ```
+****- phpMyAdmin (untuk manajemen database): Kunjungi ```bash http://localhost:8080 ```****
 
 Kredensial Default:
 Database sudah diisi dengan satu akun admin secara default.
 
-Username: ```bash admin ```
+****- Username: ```bash admin ```****
 
-Password: ```bash admin ```
+****- Password: ```bash admin ```****
 
 Untuk pengguna Siswa, silakan gunakan fitur registrasi yang tersedia di halaman utama untuk membuat akun baru.
 
-## 🤝 Berkontribusi
+## Berkontribusi
 Kontribusi sangat kami hargai! Jika Anda ingin berkontribusi, silakan lakukan fork pada repositori ini dan buat pull request dengan perubahan yang Anda usulkan.
 
 ****1. Fork repositori ini.****
