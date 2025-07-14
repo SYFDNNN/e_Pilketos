@@ -1,0 +1,44 @@
+version: '3.8'
+services:
+  app:
+    build: . 
+    ports:
+      - "80:80" 
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db 
+    environment:
+      DB_HOST: db
+      DB_NAME: e_pilketos
+      DB_USER: syaif 
+      DB_PASSWORD: '123'
+    restart: always 
+
+  db:
+    image: mysql:8.0 
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD} 
+      MYSQL_DATABASE: e_pilketos 
+      MYSQL_USER: syaif 
+      MYSQL_PASSWORD: '123' 
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./database_schema.sql:/docker-entrypoint-initdb.d/init.sql:ro 
+    ports:
+      - "3306:3306"
+    restart: always
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - db:db
+    ports:
+      - 8080:80 
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    restart: always
+
+volumes:
+  db_data:
