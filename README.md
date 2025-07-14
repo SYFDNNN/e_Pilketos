@@ -83,16 +83,3 @@ Database sudah diisi dengan satu akun admin secara default.
 - Password: ****```bash admin ```****
 
 Untuk pengguna Siswa, silakan gunakan fitur registrasi yang tersedia di halaman utama untuk membuat akun baru.
-
-## Berkontribusi
-Kontribusi sangat kami hargai! Jika Anda ingin berkontribusi, silakan lakukan fork pada repositori ini dan buat pull request dengan perubahan yang Anda usulkan.
-
-****1. Fork repositori ini.****
-
-****2. Buat branch fitur baru (```bash git checkout -b fitur/NamaFiturBaru ```).****
-
-****3. Commit perubahan Anda (``bash git commit -m 'Menambahkan FiturBaru ```).****
-
-****4. Push ke branch Anda (```bash git push origin fitur/NamaFiturBaru ```).****
-
-****5. Buka sebuah Pull Request.****
