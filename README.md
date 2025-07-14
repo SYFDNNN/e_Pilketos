@@ -2,7 +2,7 @@
 
 Selamat datang di repositori e-Pilketos! Ini adalah sebuah aplikasi web open-source yang dirancang untuk memfasilitasi pemilihan ketua OSIS secara online. Aplikasi ini dibangun dengan tumpukan teknologi PHP & MySQL dan dikemas sepenuhnya menggunakan Docker, sehingga proses instalasi dan deployment menjadi sangat mudah dan konsisten di berbagai lingkungan.
 
-![Screenshot Halaman Hasil e-Pilketos]([https://i.imgur.com/8QG3oHh.png](https://drive.google.com/uc?export=view&id=10gQc3BVtJh52Nm7-91F3CJjejU3Nw7CO))
+![Screenshot Halaman Hasil e-Pilketos](https://drive.google.com/uc?export=view&id=10gQc3BVtJh52Nm7-91F3CJjejU3Nw7CO)
 *(Catatan: Ganti URL gambar di atas dengan screenshot aplikasi Anda yang sudah di-hosting, atau simpan screenshot di dalam repo dan tautkan secara lokal)*
 
 ## ✨ Fitur Utama
